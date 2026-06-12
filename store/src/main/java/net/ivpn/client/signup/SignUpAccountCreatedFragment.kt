@@ -111,8 +111,7 @@ class SignUpAccountCreatedFragment : Fragment() {
     }
 
     private fun continuePurchase() {
-        viewModel.selectedPlan.set(Plan.STANDARD)
-        val action = SignUpAccountCreatedFragmentDirections.actionSignUpAccountCreatedFragmentToSignUpPeriodFragment2()
+        val action = SignUpAccountCreatedFragmentDirections.actionSignUpAccountCreatedFragmentToSignUpProductFragment()
         NavHostFragment.findNavController(this).navigate(action)
     }
 }

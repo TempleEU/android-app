@@ -84,6 +84,9 @@ enum class Plan(
     }
 
     fun isStandard(): Boolean = this == STANDARD
+    fun isPlus(): Boolean = this == PLUS
+    fun isPro(): Boolean = this == PRO
+
 
     fun getAltTitleOne(): String =
             when (this) {

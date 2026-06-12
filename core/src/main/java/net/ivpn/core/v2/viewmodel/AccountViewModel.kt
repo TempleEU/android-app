@@ -189,6 +189,10 @@ class AccountViewModel @Inject constructor(
         return plan.get() == Plan.STANDARD
     }
 
+    fun isAccountPro(): Boolean {
+        return plan.get() == Plan.PRO
+    }
+
     fun isAccountLegacyTeam(): Boolean {
         val user = username.get() ?: return false
         return user.startsWith("ivpn") && accountType.get()?.contains("Member") == true
@@ -199,7 +203,7 @@ class AccountViewModel @Inject constructor(
     }
 
     fun showAddMoreTime(): Boolean {
-        return isAccountStandard() && isAccountNewStyle()
+        return (isAccountStandard() || isAccountPro()) && isAccountNewStyle()
     }
 
     private fun clearLocalCache() {

@@ -157,7 +157,7 @@ class SignUpViewModel @Inject constructor(
     override fun signUpWithInactiveAccount(navController: NavController?,
                                            plan: Plan, isAccountNewStyle: Boolean) {
         if (isAccountNewStyle) {
-            if (!plan.isStandard()) {
+            if (plan.isPlus()) {
                 DialogBuilder.createNotificationDialog(navController?.context, Dialogs.ACCOUNT_INACTIVE)
                 return
             }
