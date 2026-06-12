@@ -60,7 +60,7 @@
                     android:layout_marginTop="24dp"
                     android:letterSpacing="0.04"
                     android:text="@string/sign_up_product_standard_title"
-                    android:textAllCaps="true"
+                    android:textAllCaps="false"
                     android:textColor="@color/sign_up_text_color"
                     android:textSize="16sp"
                     android:textStyle="bold"
@@ -97,9 +97,9 @@
                     android:layout_height="14dp"
                     android:layout_marginStart="16dp"
                     android:alpha="0.6"
-                    app:layout_constraintBottom_toBottomOf="@+id/textView28"
+                    app:layout_constraintBottom_toBottomOf="@+id/antitracker_label"
                     app:layout_constraintStart_toEndOf="@+id/divider"
-                    app:layout_constraintTop_toTopOf="@+id/textView28"
+                    app:layout_constraintTop_toTopOf="@+id/antitracker_label"
                     app:srcCompat="@drawable/ic_check"
                     app:tint="@color/login_text_color" />
 
@@ -168,7 +168,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="24dp"
                     android:alpha="0.6"
-                    android:text="@string/sign_up_all_protocols"
+                    android:text="@string/sign_up_product_2_devices"
                     android:textColor="@color/login_text_color"
                     android:textSize="14sp"
                     app:layout_constraintStart_toEndOf="@+id/imageView9"
@@ -181,7 +181,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="24dp"
                     android:alpha="0.6"
-                    android:text="@string/sign_up_all_protocols"
+                    android:text="@string/sign_up_product_7_devices"
                     android:textColor="@color/login_text_color"
                     android:textSize="14sp"
                     app:layout_constraintStart_toEndOf="@+id/imageView21"
@@ -194,24 +194,11 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="12dp"
                     android:alpha="0.6"
-                    android:text="@string/sign_up_product_7_devices"
+                    android:text="@string/sign_up_product_multihop"
                     android:textColor="@color/login_text_color"
                     android:textSize="14sp"
                     app:layout_constraintStart_toEndOf="@+id/imageView9"
                     app:layout_constraintTop_toBottomOf="@+id/textView26" />
-
-                <TextView
-                    android:id="@+id/textView28"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="9dp"
-                    android:layout_marginTop="12dp"
-                    android:alpha="0.6"
-                    android:text="@string/sign_up_product_multihop"
-                    android:textColor="@color/login_text_color"
-                    android:textSize="14sp"
-                    app:layout_constraintStart_toEndOf="@+id/imageView17"
-                    app:layout_constraintTop_toBottomOf="@+id/antitracker_label" />
 
                 <TextView
                     android:id="@+id/antitracker_label"
@@ -220,12 +207,12 @@
                     android:layout_marginStart="9dp"
                     android:layout_marginTop="12dp"
                     android:alpha="0.6"
-                    android:text="@string/sign_up_product_antitracker"
+                    android:text="@string/sign_up_all_protocols"
                     android:textColor="@color/login_text_color"
                     android:textSize="14sp"
                     app:layout_constraintStart_toEndOf="@+id/imageView17"
                     app:layout_constraintTop_toBottomOf="@+id/textView27" />
-
+                
                 <TextView
                     android:id="@+id/textView21"
                     android:layout_width="wrap_content"
@@ -233,7 +220,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="12dp"
                     android:alpha="0.6"
-                    android:text="@string/sign_up_product_2_devices"
+                    android:text="@string/sign_up_product_multihop"
                     android:textColor="@color/login_text_color"
                     android:textSize="14sp"
                     app:layout_constraintStart_toEndOf="@+id/imageView10"
@@ -246,7 +233,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="12dp"
                     android:alpha="0.6"
-                    android:text="@string/sign_up_product_antitracker"
+                    android:text="@string/sign_up_all_protocols"
                     android:textColor="@color/login_text_color"
                     android:textSize="14sp"
                     app:layout_constraintStart_toEndOf="@+id/imageView10"
@@ -274,7 +261,7 @@
                     android:text="@string/sign_up_continue"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView28" />
+                    app:layout_constraintTop_toBottomOf="@+id/antitracker_label" />
 
                 <TextView
                     android:id="@+id/textView22"
@@ -321,7 +308,7 @@
                     android:layout_marginTop="24dp"
                     android:letterSpacing="0.04"
                     android:text="@string/sign_up_product_pro_title"
-                    android:textAllCaps="true"
+                    android:textAllCaps="false"
                     android:textColor="@color/sign_up_text_color"
                     android:textSize="16sp"
                     android:textStyle="bold"
