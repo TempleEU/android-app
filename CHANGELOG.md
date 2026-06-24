@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## Version 2.13.1 - 2026-06-24
+
+[IMPROVED] Support for both IVPN Standard and IVPN Pro plans in the in-app purchase flow  
+
+[Download IVPN Client v2.13.1](https://www.ivpn.net/releases/android/IVPNv2.13.1site.apk)  
+SHA256: 670b3c4cc96975de1b1c5572f80919a11bbf6834fdedc6085374dd62288f79a6  
+
 ## Version 2.13.0 - 2026-05-07
 
 [NEW] Added support for the new signup flow  
