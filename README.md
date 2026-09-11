@@ -1,5 +1,14 @@
 # IVPN for Android
 
+<p align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-TempleEU%2Fandroid--app-181717?style=plastic&logo=github&logoColor=white)](https://github.com/TempleEU/android-app)
+[![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?style=plastic&logo=android&logoColor=white)](https://github.com/TempleEU/android-app)
+[![Stack](https://img.shields.io/badge/Stack-Java%20%2B%20Kotlin-67e8a2?style=plastic&logo=kotlin&logoColor=white)](https://github.com/TempleEU/android-app)
+[![CI](https://img.shields.io/badge/CI-GitHub%20Actions-2088FF?style=plastic&logo=githubactions&logoColor=white)](https://github.com/TempleEU/android-app/actions)
+
+</p>
+
 [![Build](https://github.com/ivpn/android-app/actions/workflows/build.yml/badge.svg)](https://github.com/ivpn/android-app/actions/workflows/build.yml)
 [![CodeQL](https://github.com/ivpn/android-app/actions/workflows/codeql.yml/badge.svg)](https://github.com/ivpn/android-app/actions/workflows/codeql.yml)
 
@@ -81,7 +90,7 @@ SemVer is a 3-component system in the format of `x.y.z` where:
 
 `x` stands for a **major** version  
 `y` stands for a **minor** version  
-`z` stands for a **patch**
+`z` stands for a **patch** version  
 
 So we have: `Major.Minor.Patch` 
 
